@@ -477,7 +477,7 @@
                           </a>
                         </div>
 
-                        <div class="title">{{ currentPlaying.title }}</div>
+                        <div class="title">{{ currentPlaying.title }} <a id="download_music" download="" class="" href="" target="_blank">下载</a></div>
                         <div class="more-info">
                             <div class="current">{{ currentPosition }}</div>
                             <div class="singer"><a ng-click="showPlaylist(currentPlaying.artist_id)">{{ currentPlaying.artist }}</a> - <a ng-click="showPlaylist(currentPlaying.album_id)">{{ currentPlaying.album }}</a></div>
